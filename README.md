@@ -1,27 +1,41 @@
-# Webshop
+# Simple-Ecommerce-Website-using-Spring-Boot-and-Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.1.
 
-## Development server
+A university project on a e-commerce website developed using java spring as a backend, angular as a frontend and MongoDB
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Technologies used
+- Spring Boot 
+- Spring Rest
+- Spring Data MongoDB
+- MongoDB 
+- Maven
+- Java 
+- Postman
+- Angular
+- Bootstrap
 
-## Code scaffolding
+### REST API
+<pre>
+/api/product/
+  POST /save-product - Add product 
+  GET /products-list - List of products
+  GET /{product_id} - View product
+  POST /update-product/{product_id} - Update product
+  POST /delete-product/{product_id} - Delete product 
+  
+  
+/api/seller/
+  POST /save-seller - Add seller 
+  GET /sellers-list - List of sellers
+  GET /{seller_id} - View seller
+  POST /update-seller/{seller_id} - Update seller
+  POST /delete-seller/{seller_id} - Delete seller
+  
+/api/category/
+  POST /save-category - Add category 
+  GET /category-list - List of categorys
+  GET /{category_id} - View category
+  POST /update-category/{category_id} - Update category
+  POST /delete-category/{category_id} - Delete category 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+</pre>
